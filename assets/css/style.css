@@ -1,0 +1,268 @@
+/* فونت ها */
+
+@font-face {
+    font-family: Vazir;
+    src: url('/assets/fonts/ttf/Vazirmatn-Black.ttf');
+}
+
+@font-face {
+    font-family: sammim;
+    src: url('/assets/fonts/sammim/Samim-Bold-FD.woff');
+    src: url('/assets/fonts/sammim/Samim-Bold-FD.woff2');
+}
+
+
+
+/* سلکتور همه تگ ها */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* سلکت تگ بادی */
+
+body {
+    direction: rtl;
+    font-family: sammim;
+    width: 100%;
+    text-align: center;
+}
+
+/* سلکت هدر سایت */
+
+header {
+    text-align: center;
+    background-color: blue;
+}
+
+/* سلکت تگ اچ با والد تگ هدر */
+
+header h1 {
+    font-size: 50px;
+    display: inline-block;
+    padding: 50px 0px;
+}
+
+/* سلکت کلاس مین در ایندکس اچ تی ام ال */
+
+main {
+    text-align: center;
+    background-color: burlywood;
+}
+
+.mycontaner {
+    background-color: aqua;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+
+.text-box {
+    color: black;
+    background-color: chartreuse;
+    border-radius: 10px;
+    text-align: left;
+    padding: 5px 5px;
+}
+
+.text-box h1 {
+    text-shadow: 2px 2px 5px red;
+    padding-bottom: 5px;
+}
+
+.imagecontaner {
+    background-color: blue;
+    text-align: center;
+    display: inline-block;
+    width: 35%;
+    padding: 5px;
+    vertical-align: top;
+
+}
+
+.gallerybox {
+    background-color: cornflowerblue;
+    padding: 5px;
+    display: inline-block;
+    object-fit: cover;
+}
+
+.galleysection {
+    background-color: beige;
+    padding: 5px;
+    display: inline-block;
+    width: 30%;
+}
+
+.galleysection img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    background-color: brown;
+    text-align: center;
+    padding: 20px;
+}
+
+.footersction {
+    display: inline-block;
+    width: 30%;
+    background-color: antiquewhite;
+    margin: 0 10px;
+}
+
+.image2 {
+    border-radius: 100%;
+}
+
+
+
+/* استایل های صفحه ثبتنام */
+
+
+
+.regestersection {
+    text-align: center;
+}
+
+.regesterbox {
+    display: inline-block;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 10px;
+    padding-right: 60px;
+}
+
+.regesterhesder {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.regesterhesder h1 {
+    font-size: 40px;
+    color: transparent;
+    background: linear-gradient(to right, #FAFF00, #00E0FF);
+    background-clip: text;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.redtext {
+    color: red;
+}
+
+.regesterform {
+    text-align: justify;
+}
+
+.halfinput {
+    width: 47%;
+    display: inline-block;
+    margin: 5px 0px;
+}
+
+.halfinput input {
+    box-shadow: 0 0 10px white inset;
+}
+
+.halfinput label {
+    text-align: left;
+}
+
+.radiobox input {
+    width: 15px;
+    vertical-align: sub;
+    margin-left: 10px;
+}
+
+.radiobox label {
+    vertical-align: super;
+    margin-left: 10px;
+}
+
+.radiobox p {
+    font-size: 15px;
+    border: none;
+    width: 40%;
+    height: 30px;
+    background: linear-gradient(to right, #FF8A00, #DBFF00);
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+input {
+    border: none;
+    width: 90%;
+    height: 30px;
+    background: linear-gradient(to right, #FF8A00, #DBFF00);
+    border-radius: 100px;
+    margin: 5px 0px;
+    font-family: inherit;
+    padding-right: 10px;
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+}
+.lineinput {
+    margin: 5px 0px;
+}
+
+.lineinput input {
+    box-shadow: 0 0 5px white;
+}
+
+
+
+.checkbox input {
+    width: 20px;
+    vertical-align: sub;
+}
+
+.checkbox label {
+    vertical-align: super;
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit button {
+    width: 40%;
+    background-color: #FF8A00;
+    border: none;
+    height: 30px;
+    border-radius: 100px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 1s;
+    font-family: inherit;
+}
+
+button:hover {
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+button:focus {
+    box-shadow: 0 0 5px rgb(255, 254, 254) inset;
+    background-color: #DBFF00;
+}
+
+
+
+
+@media (max-width: 412px) {
+    .regesterbox{
+        width: 90%;
+    }
+}
+
+
+

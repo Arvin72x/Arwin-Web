@@ -1,0 +1,62 @@
+@font-face {
+    font-family: sammim;
+    src: url(/assets/fonts/sammim/Samim-Bold-FD.woff);
+    src: url(/assets/fonts/sammim/Samim-Bold-FD.woff2);
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border-color: rgb(203, 108, 108);
+}
+
+header {
+    height: 80px;
+    background-color: rgba(3, 3, 127, 0.803);
+    text-align: center;
+    padding-top: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.listSection {
+    list-style: none;
+}
+
+.listItemBace {
+    background-color: white;
+}
+
+.internalList {
+    list-style: none;
+}
+
+.listItemInternal {
+    width: 25%;
+    height: 30px;
+    display: inline-block;
+}
+
+.boxShadow {
+    box-shadow: 10px 10px 0 gray;
+}
+
+
+footer {
+    height: 50px;
+    margin: 25px;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
