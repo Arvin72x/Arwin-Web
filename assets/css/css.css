@@ -35,7 +35,9 @@ body {
     padding: 30px;
     margin-top: 30px;
     border-radius: 10px;
-    background-color: white;
+    background-color: #7ADAA5;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px black;
 }
 
 .headerregester2 h1,
@@ -55,9 +57,13 @@ input {
     border-radius: 5px;
     margin-top: 20px;
     padding-right: 15px;
-    background-color: white;
+    background-color: #ECECBB;
     font-family: inherit;
 }
+
+input:focus {
+    background-color: white;
+} 
 
 input::placeholder {
     color: black;
@@ -88,11 +94,15 @@ input::placeholder {
 
 .regesterrrr button {
     width: 60%;
-    background-color: greenyellow;
+    background-color: #239BA7;
     border-radius: 5px;
     border: none;
+    color: white;
     font-family: inherit;
+    font-size: 17px;
     padding: 10px 0;
+    box-shadow: 3px 3px 7px black;
+    cursor: pointer;
 }
 
 
@@ -104,7 +114,6 @@ input::placeholder {
 @media (max-width: 412px) {
     .regester2box {
         width: 90%;
-        background-color: aliceblue;
     }
 
     .regesterinput {
