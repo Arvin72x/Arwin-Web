@@ -63,7 +63,7 @@ input {
 
 input:focus {
     background-color: white;
-} 
+}
 
 input::placeholder {
     color: black;
@@ -92,6 +92,7 @@ input::placeholder {
     text-align: center;
 }
 
+
 .regesterrrr button {
     width: 60%;
     background-color: #239BA7;
@@ -103,8 +104,23 @@ input::placeholder {
     padding: 10px 0;
     box-shadow: 3px 3px 7px black;
     cursor: pointer;
+    transition: all ease 1s;
 }
 
+.regesterrrr button:hover {
+    
+    background-color: #0479ff;
+    
+}
+
+.login {
+    margin-top: 30px;
+}
+
+.login a {
+    text-decoration: none;
+    color: rgb(49, 101, 255);
+}
 
 
 

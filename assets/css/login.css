@@ -1,0 +1,61 @@
+@font-face {
+    font-family: sammim;
+    src: url(/assets/fonts/sammim/Samim-Bold-FD.woff);
+    src: url(/assets/fonts/sammim/Samim-Bold-FD.woff2);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+    font-family: sammim;
+    text-align: center;
+    direction: rtl;
+}
+
+.logincontaner {
+    width: 40%;
+    /* height: 600px; */
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 20px 20px 100px gray;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.logincontaner p {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 75px;
+}
+
+.logincontaner input {
+    width: 75%;
+    height: 50px;
+    margin: 20px 0;
+    border: 3px solid blue;
+    border-radius: 200px;
+}
+
+input:focus {
+    border: 5px solid red;
+}
+
+.logincontaner input::placeholder {
+    color: rgb(91, 91, 235);
+    padding-right: 30px;
+    font-family: sammim;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(19, 19, 255);
+    margin-top: 30px;
+}

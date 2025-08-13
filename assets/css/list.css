@@ -42,9 +42,6 @@ main {
     border-radius: 5px;
 }
 
-.internalList {
-}
-
 .listItemInternal {
     width: 25%;
     height: 100%;
@@ -75,18 +72,24 @@ main {
     padding: 10px 10px 10px 30px;
 }
 
-.listProgress { 
-   width: 50%;
-   height: 25px;
-   vertical-align: middle;
-   margin-right: 5px;
+.listProgress {
+    width: 50%;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
 }
 
 .listtwo span {
     vertical-align: middle;
 }
 
+.iIcon {
+    vertical-align: middle;
+}
 
+.star {
+    color: rgb(255, 187, 0);
+}
 
 .visitWebsite {
     padding: 10px 20px;
@@ -95,6 +98,7 @@ main {
     text-decoration: none;
     color: white;
 }
+
 .listrour {
     text-align: right;
     padding-right: 30px;
