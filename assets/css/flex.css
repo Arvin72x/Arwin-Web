@@ -1,0 +1,25 @@
+body {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cotanier {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    border-radius: 30px;
+    background-color: gray;
+    padding: 30px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+}
