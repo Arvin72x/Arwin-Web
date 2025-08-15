@@ -24,100 +24,244 @@
 /* سلکت تگ بادی */
 
 body {
-    direction: rtl;
     font-family: sammim;
-    width: 100%;
+    height: 100%;
     text-align: center;
+    background-color: #FAF9EE;
 }
 
-/* سلکت هدر سایت */
+/* هدر سایت اصلی */
 
 header {
-    text-align: center;
-    background-color: blue;
+    height: 20%;
+    background-color: #A2AF9B;
+    color: #EEEEEE;
+    padding: 20px 0;
 }
 
-/* سلکت تگ اچ با والد تگ هدر */
-
-header h1 {
-    font-size: 50px;
-    display: inline-block;
-    padding: 50px 0px;
-}
-
-/* سلکت کلاس مین در ایندکس اچ تی ام ال */
-
-main {
-    text-align: center;
-    background-color: burlywood;
-}
-
-.mycontaner {
-    background-color: aqua;
-    display: inline-block;
-    width: 30%;
-    text-align: center;
-}
-
-.text-box {
-    color: black;
-    background-color: chartreuse;
-    border-radius: 10px;
-    text-align: left;
-    padding: 5px 5px;
-}
-
-.text-box h1 {
-    text-shadow: 2px 2px 5px red;
-    padding-bottom: 5px;
-}
-
-.imagecontaner {
-    background-color: blue;
-    text-align: center;
-    display: inline-block;
-    width: 35%;
-    padding: 5px;
-    vertical-align: top;
-
-}
-
-.gallerybox {
-    background-color: cornflowerblue;
-    padding: 5px;
-    display: inline-block;
-    object-fit: cover;
-}
-
-.galleysection {
-    background-color: beige;
-    padding: 5px;
-    display: inline-block;
-    width: 30%;
-}
-
-.galleysection img {
-    width: 100%;
-    height: auto;
-}
+/* فوتر سایت اصلی */
 
 footer {
-    width: 100%;
-    background-color: brown;
-    text-align: center;
-    padding: 20px;
+    height: 20%;
+    background-color: #A2AF9B;
+    color: #EEEEEE;
+    padding: 20px 0;
 }
 
-.footersction {
+/* تگ لینک هدر سایت اصلی */
+
+header a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #0048ff;
+}
+
+main {
+    padding: 30px;
+}
+
+/* تکس کانتینر صفحه اصلی */
+
+.text-container {
+    display: inline-block;
+    width: 20%;
+    border-radius: 5px;
+    background-color: #A2AF9B;
+    padding: 10px;
+    color: #EEEEEE;
+}
+
+/* تکس باکس صفحه اصلی سایت */
+
+.text-box {
+    text-align: left;
+}
+
+.text-box h3 {
+    text-shadow: 3px 3px 10px #ff0000;
+}
+
+.text-box p {
+    line-height: 2;
+    text-align: justify;
+}
+
+/* گالری تصاویر صفحه اصلی سایت */
+
+.gallry-box {
+    display: inline-block;
+    width: 57%;
+    background-color: #A2AF9B;
+    padding: 5px;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+.gallry-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image-box {
     display: inline-block;
     width: 30%;
-    background-color: antiquewhite;
     margin: 0 10px;
+    vertical-align: middle;
 }
 
-.image2 {
-    border-radius: 100%;
+.Circle {
+    border-radius: 100% !important;
+    width: 200px;
+    height: 200px;
+    margin: 30px 0;
+    box-shadow: 3px 3px 20px rgb(0, 0, 0);
 }
+
+
+/* ریسپانسیو */
+
+
+@media (max-width: 412px) {
+
+    main {
+        padding: 5px;
+    }
+
+    .text-container {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .gallry-box {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .image-box {
+        margin: auto;
+    }
+
+    .Circle {
+        width: auto;
+        height: auto;
+    }
+
+    .text-box h3 {
+        font-size: small;
+    }
+
+    .text-box p {
+        line-height: 2;
+        font-size: small;
+    }
+}
+
+@media (max-width: 854px) {
+
+    main {
+        padding: 5px;
+    }
+
+    .text-container {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .gallry-box {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .image-box {
+        margin: auto;
+        width: 90%;
+    }
+
+    .Circle {
+        width: auto;
+        height: auto;
+    }
+
+    .text-box h3 {
+        font-size: small;
+    }
+
+    .text-box p {
+        line-height: 2;
+        font-size: small;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    main {
+        padding: 5px;
+    }
+
+    .text-container {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .gallry-box {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .image-box {
+        margin: auto;
+    }
+
+    .Circle {
+        width: auto;
+        height: auto;
+    }
+
+    .text-box h3 {
+        font-size: small;
+    }
+
+    .text-box p {
+        line-height: 2;
+        font-size: small;
+    }
+}
+
+@media (max-width: 1280px) {
+
+    main {
+        padding: 5px;
+    }
+
+    .text-container {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .gallry-box {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .image-box {
+        margin: auto;
+    }
+
+    .Circle {
+        width: auto;
+        height: auto;
+    }
+
+    .text-box h3 {
+        font-size: small;
+    }
+
+    .text-box p {
+        line-height: 2;
+        font-size: small;
+    }
+}
+
 
 
 
@@ -211,6 +355,7 @@ input {
 input::placeholder {
     color: rgb(255, 255, 255);
 }
+
 .lineinput {
     margin: 5px 0px;
 }
@@ -255,14 +400,15 @@ button:focus {
     background-color: #DBFF00;
 }
 
-
-
-
-@media (max-width: 412px) {
-    .regesterbox{
-        width: 90%;
-    }
+.verticalAlignMidlle {
+    vertical-align: middle;
 }
 
 
 
+
+@media (max-width: 412px) {
+    .regesterbox {
+        width: 90%;
+    }
+}
