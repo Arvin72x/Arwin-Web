@@ -10,31 +10,36 @@
     box-sizing: border-box;
 }
 
-body {
+.loginbody {
+    height: 100vh;
     background-color: blue;
     font-family: sammim;
     text-align: center;
     direction: rtl;
 }
 
-.logincontaner {
+
+
+.loginSection {
+    display: inline-block;
     width: 40%;
-    /* height: 600px; */
     background-color: white;
     border-radius: 20px;
     box-shadow: 20px 20px 100px gray;
-    display: inline-block;
     margin-top: 30px;
     padding: 30px;
 }
 
-.logincontaner p {
-    font-size: 50px;
-    margin-top: 30px;
-    margin-bottom: 75px;
+.loginContainer {
+    text-align: center;
 }
 
-.logincontaner input {
+.loginContainer p {
+    font-size: 50px;
+    padding: 30px 0 50px 0;
+}
+
+.loginContainer input {
     width: 75%;
     height: 50px;
     margin: 20px 0;
@@ -42,20 +47,36 @@ body {
     border-radius: 200px;
 }
 
-input:focus {
-    border: 5px solid red;
-}
-
-.logincontaner input::placeholder {
+.loginContainer input::placeholder {
     color: rgb(91, 91, 235);
     padding-right: 30px;
     font-family: sammim;
     font-size: 20px;
 }
 
-a {
+.loginContainer input:focus::placeholder {
+    visibility: hidden;
+}
+
+.loginContainer a {
     text-decoration: none;
     font-size: 15px;
     color: rgb(19, 19, 255);
     margin-top: 30px;
+}
+
+
+@media (max-width: 412px) {
+
+    .loginSection {
+        width: 95%;
+    }
+
+    .loginContainer p {
+        font-size: 30px;
+    }
+
+    .loginContainer input {
+        width: 95%;
+    }
 }
